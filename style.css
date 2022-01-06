@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 5px auto
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgb(226,226,226);
+    background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(159,217,241,1) 26%, rgba(166,218,239,1) 71%, rgba(98,209,255,1) 100%);
+}
+
+h1 {
+    color:#CDDEFF;
+}
+
+.top {
+    margin: 0 40px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(59, 159, 218);
+    border-radius: 30px;
+}
+
+.but {
+    margin: 95px 270px;
+    display: inline-block;
+    display: flex;
+    flex-direction:row;
+}
+
+#but1 {
+    border-radius: 100%;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: #EEF2FF;
+    border-color: rgb(59, 159, 218);
+    border-style:dashed;
+    font-size: 100px;
+    color: rgb(59, 159, 218);
+}
+
+#but2 {
+    border-radius: 7%;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    margin-top: 60px;
+    background-color: #EEF2FF;
+    border-color: rgb(59, 159, 218);
+    font-weight:bolder;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;color:rgb(59, 159, 218)
+}
+
+#but3 {
+    border-radius: 7%;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    margin-top: 60px;
+    background-color: transparent;
+    border: transparent;
+    border-color: transparent;
+    font-weight:bolder;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;color:rgb(59, 159, 218)
+}
+
+#but1:hover {
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    background-color: rgb(117, 196, 241);
+}
+
+#but2:hover {
+    cursor: pointer;
+    background-color: rgb(117, 196, 241);
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+#but3:hover {
+    cursor: pointer;
+    background-color: rgb(117, 196, 241);
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
+
+
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 20px;
+    font-weight: 100;
+    border-radius: 15%;
+    width: 100px;
+}
